@@ -1,0 +1,31 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<title>Log In</title>
+</head>
+<body  onLoad='logout()'>
+	<div id="main">
+	<div></div>
+	<div id="log">
+	<div id="label">
+		<label>Unesite šifru</label>
+
+	</div>
+	<div id ="donji">
+			<input type="text" id="username" placeholder="Korisničko ime"/><br/>
+            <input type="password" id="pw" maxlength="4" placeholder="Lozinka" />
+            <br />
+            <button type="button" id="btn" onclick="login()" >Prijavi se</button>
+        
+	</div>
+	</div>
+	<div></div>
+	</div>
+<script src="login.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+*{
+
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+
+	background-color: #8c92ac;
+}
+#main{
+	display: grid;
+	grid-template-columns: 192px 1152px 576px;
+	
+
+
+}
+
+#left{
+	
+	width: 192px;
+	height: 100%;
+
+}
+.kategorije{
+	width: 150px;
+	height: 120px;
+	margin: 10px;
+	text-align: center;
+
+	box-shadow:  3px 3px grey;
+}
+
+#center{
+	height: 100%;
+
+	width: 100%;
+
+
+}
+
+
+#logout{
+
+}
+.element{
+	text-align: center;
+	margin: 10px;
+	display: inline-block;
+	height: 150px;
+	width: 23%;
+	background-color: #EBD4C7;
+	font-size: 25px;
+	
+	border-radius: 10px;
+}
+.element input{
+	width: 99%;
+	text-align:center;
+	font-size: 18px;
+}
+.element button{
+	width: 99%;
+	font-size: 15px;
+
+}
+/**.Čokoladna{
+	background-color: #b1a1a6;
+}*/
+#right{
+	min-width: 500px;
+	max-width: auto;
+	min-height: 500px;
+	max-height: auto;
+
+}
+#zaSlanje{
+	background-color: white;
+	min-width: 500px;
+	max-width: auto;
+	height: auto;
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+	box-shadow: 5px 5px grey;
+	
+}
+#field{
+	min-width: 100%;
+	max-width: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+	/*border-bottom: 2px solid grey;*/
+
+
+	
+}
+#field div {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	border-bottom: 3px solid #EBD4C7;
+	border: 3px solid #EBD4C7;
+	
+
+}
+#field span {
+	width: 130px;
+	text-align: right;
+	font-size: 20px;
+}
+
+#field span button{
+	float: right;
+}
+
+#ukupno{
+	margin-top: 20px;
+	width: 200px;
+	height: 100%;
+	float: left;
+	font-size: 30px;
+	margin-left: 50px;
+	color: white;
+	
+
+}
+#cena{
+	margin-top: 20px;
+	width: 220px;
+	height: 100%;
+	float: right;
+	font-size: 30px;
+	margin-right: 80px;
+	text-align: right;
+	color: white;
+
+}
+#prodaj{
+	width: 500px;
+	margin-left: 50px;
+	height: 50px;
+}

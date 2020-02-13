@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+}
+html{
+	height: 100%;
+
+}
+/*
+@media only screen and (min-width: 2800px) {
+  html{
+  	font-size: 190%;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  html{
+  	font-size: 170%;
+  }
+}
+*/
+@media only screen and (max-width: 1270px) {
+  html{
+  	font-size: 80%;
+  }
+}
+@media only screen and (max-width: 960px) {
+  html{
+  	font-size: 70%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  html{
+  	font-size: 60%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  html{
+  	font-size: 50%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  html{
+  	font-size: 40%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  html{
+  	font-size: 30%;
+  }
+}
+
+
+
+body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+#main{
+	height: 100%;
+	display: grid;
+	grid-template-rows:33.33% 33.33% 33.33%;
+	margin: 0 auto;
+	cursor: pointer;
+
+}
+#statistics{
+	background-color: #9e8e01;
+	text-align: center;
+	color: #DAF1DE;
+	font-size: 10rem;
+	
+}
+#settings{
+	background-color: #508104;
+	text-align: center;
+	color: #DAF1DE;
+	font-size: 10rem;
+}
+
+#logout{
+	background-color: #235347;
+	text-align: center;
+	color: #DAF1DE;
+	font-size: 10rem;
+}
+#statistics:hover{
+	opacity: 0.5;
+
+}
+#logout:hover{
+	opacity: 0.5;
+
+}
+#settings:hover{
+	opacity: 0.5;
+
+}

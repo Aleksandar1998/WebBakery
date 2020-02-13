@@ -1,0 +1,72 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+html, body{
+	height: 100%;
+
+}
+#main{
+	height: 100%;
+	width: 100%
+}
+#gore{
+	height: 80%;
+	width: 100%;
+
+
+}
+#gore canvas{
+	width: 100% !important;
+	height: 100% !important;
+}
+#dole{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 20%;
+	background-color: #777;
+}
+#left{
+	background-color: #AAA;
+	color: black;
+}
+#start span{
+	font-size: 2rem;
+}
+#end span{
+	font-size: 2rem;
+}
+#start input, #end input{
+	font-size: 2rem;
+}
+
+#center{
+	background-color: #AAA;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+#center button, #center select{
+	font-size: 1.5rem;
+}
+#right{
+	background-color: #AAA;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#right button{
+		font-size: 2rem;
+}
+#right button:hover, #center button:hover{
+	cursor: pointer;
+	background-color: #777;
+	color:white;
+	border-color: #777;
+}
+

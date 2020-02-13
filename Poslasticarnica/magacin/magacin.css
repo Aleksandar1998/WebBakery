@@ -1,0 +1,49 @@
+body{
+	text-align: center;
+	background-color: #8c92ac;
+}
+#main{
+	display: grid;
+	grid-template-columns: 15% 70% 15%;
+	grid-auto-rows:minmax(300px,auto);
+	max-width: 960px;
+	margin:0 auto;
+	margin-top: 10%;
+	/*background-color: grey;*/
+}
+#wrapper{
+	/*background-color: #3bbced;*/
+	display: grid;
+	grid-auto-rows:minmax(50px,auto);
+	
+
+}
+#gore{
+	display: flex;
+	flex-direction: column;
+
+
+}
+#prijem{
+	width: 500px;
+	height: 125px;
+	font-size: 25px;
+}
+#logout{
+	width: 500px;
+	height: 125px;
+	font-size: 25px;
+}
+/*#gore{
+	background-color: black;
+}
+#sredina{
+	background-color: white;
+}
+#dole{
+	background-color: green;
+}**/
+#prikaz{
+	display: inline-block;
+	text-align: center;
+}
