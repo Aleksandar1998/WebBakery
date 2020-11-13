@@ -11,10 +11,10 @@ warehouse:
 production:
           username: proizvodnja
           password: 2222
-sales    :
-         usernames: radnja1
-         password:  3333
-admin    :
-         username: admin
-         password: 9999
+sales     :
+          usernames: radnja1
+          password:  3333
+admin     :
+          username: admin
+          password: 9999
 ```
